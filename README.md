@@ -1,6 +1,6 @@
 # AirCanvas 🖌️
 
-AirCanvas is a virtual painting application that lets you draw in real-time using hand gestures, powered by **MediaPipe** and **OpenCV**. You can select colors, undo/redo strokes, save your canvas, and even clear the screen—all without touching the mouse or keyboard.
+AirCanvas is a virtual painting application that lets you draw in real-time using hand gestures, powered by **MediaPipe** and **OpenCV**. You can draw, select colors, undo/redo strokes all without touching the mouse or keyboard.
 
 ---
 
@@ -11,7 +11,6 @@ AirCanvas is a virtual painting application that lets you draw in real-time usin
 - Undo and redo functionality
 - Save your artwork as a PNG file
 - Clear canvas with a hand gesture
-- Session saving/loading (future feature)
 
 ---
 
