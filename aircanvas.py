@@ -77,7 +77,14 @@ while ret:
 
     # Draw Toolbar
     cv2.rectangle(frame, (0, 0), (720, button_height), (35, 45, 65), -1)
-    cv2.putText(frame, "AirCanvas", (20, 40), cv2.FONT_HERSHEY_SIMPLEX, 0.8, (255, 255, 255), 2)
+    
+    # App name
+    cv2.putText(frame, "AirCanvas", (20, 30), cv2.FONT_HERSHEY_SIMPLEX, 0.8, (255, 255, 255), 2)
+    
+    # Key instructions
+    instructions = "Keys: Q=Quit | S=Save Canvas | X=Save Session | L=Load Session"
+    cv2.putText(frame, instructions, (220, 35), cv2.FONT_HERSHEY_SIMPLEX, 0.5, (255, 255, 255), 1)
+
 
     for i, (x, y, color) in enumerate(color_circles):
         cv2.circle(frame, (x, y), 25, color, -1)
