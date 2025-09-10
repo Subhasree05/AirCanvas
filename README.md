@@ -11,6 +11,7 @@ AirCanvas is a virtual painting application that lets you draw in real-time usin
 - Undo and redo functionality
 - Save your artwork as a PNG file
 - Clear canvas with a hand gesture
+- Load/Save sessions
 
 ---
 
@@ -21,3 +22,9 @@ AirCanvas is a virtual painting application that lets you draw in real-time usin
 - Python packages:
   ```bash
   pip install -r requirements.txt
+
+## How to run
+- Install requirements (previous step)
+- Run command:
+  ```bash
+  python aircanvas.py
